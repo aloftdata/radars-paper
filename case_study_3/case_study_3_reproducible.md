@@ -59,13 +59,13 @@ vpts <- get_vpts(radar = radarCode, as.Date(time))
 plot(vpts$nlhrw, main="Herwijnen")
 ```
 
-![](case_study_3_reproducable_files/figure-gfm/vpts-1.png)<!-- -->
+![](case_study_3_reproducible_files/figure-gfm/vpts-1.png)<!-- -->
 
 ``` r
 plot(vpts$nldhl, main="Den Helder")
 ```
 
-![](case_study_3_reproducable_files/figure-gfm/vpts-2.png)<!-- -->
+![](case_study_3_reproducible_files/figure-gfm/vpts-2.png)<!-- -->
 
 # Static map
 
@@ -155,7 +155,7 @@ ggplot() +
     ## Warning in scale_fill_viridis_c(name = "Bird density [1/km^2]", option =
     ## "turbo", : log-10 transformation introduced infinite values.
 
-![](case_study_3_reproducable_files/figure-gfm/exampleRplot-1.png)<!-- -->
+![](case_study_3_reproducible_files/figure-gfm/exampleRplot-1.png)<!-- -->
 
 In this map we see high density of birds along the coast this
 corresponds to [citizen science
@@ -316,7 +316,7 @@ animate(
     ## Warning in scale_fill_viridis_c(name = "Bird density [1/km^2]", option =
     ## "turbo", : log-10 transformation introduced infinite values.
 
-![](case_study_3_reproducable_files/figure-gfm/printAnimation1R-1.gif)<!-- -->
+![](case_study_3_reproducible_files/figure-gfm/printAnimation1R-1.gif)<!-- -->
 
 In this animation we again see the high density of migratory birds along
 the coast. This corresponds to observations by a radar (MR1) located
